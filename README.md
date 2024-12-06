@@ -9,10 +9,6 @@ This repository contains the implementation of a **School Management API** using
 3. [API Endpoints](#api-endpoints)
 4. [Setup and Installation](#setup-and-installation)
 5. [Testing the API](#testing-the-api)
-6. [Deployment](#deployment)
-7. [Postman Collection](#postman-collection)
-8. [Contributing](#contributing)
-9. [License](#license)
 
 ---
 
@@ -113,13 +109,13 @@ Follow these steps to set up the project locally:
    npm start
    ```
 
-The server will start on `http://localhost:5000`.
+The server will start on `http://localhost:8080`.
 
 ---
 
 ## Testing the API
 
-You can test the API using **Postman** or **cURL**.
+You can test the API using **Postman**.
 
 - **POST /addSchool**:
   - Set the request method to `POST` and provide the required JSON in the body.
@@ -129,18 +125,8 @@ You can test the API using **Postman** or **cURL**.
 
 Example request for **GET /listSchools**:
 ```
-GET http://localhost:5000/listSchools?latitude=12.9716&longitude=77.5946
+GET http://localhost:8080/listSchools?latitude=12.9716&longitude=77.5946
 ```
-
----
-
-## Deployment
-
-The API is deployed on **Heroku** and is accessible at:
-
-[https://your-api-url.herokuapp.com](https://your-api-url.herokuapp.com)
-
-For production deployments, you can use **Heroku**, **Render**, **Vercel**, or any other cloud platform.
 
 ---
 
@@ -149,18 +135,5 @@ For production deployments, you can use **Heroku**, **Render**, **Vercel**, or a
 You can import the Postman collection from the link below to test the API endpoints:
 
 [Postman Collection Link](https://www.getpostman.com/collections/your-collection-id)
-
----
-
-## Contributing
-
-We welcome contributions! If you’d like to improve the project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add your feature'`).
-5. Push to the branch (`git push origin feature/your-feature`).
-6. Open a pull request.
 
 ---
