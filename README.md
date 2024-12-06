@@ -129,11 +129,3 @@ GET http://localhost:8080/listSchools?latitude=12.9716&longitude=77.5946
 ```
 
 ---
-
-## Postman Collection
-
-You can import the Postman collection from the link below to test the API endpoints:
-
-[Postman Collection Link](https://www.getpostman.com/collections/your-collection-id)
-
----
